@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PT. Toyota Auto Body Tokai Extrusion</title>
+    <title>PT.Tokai Extrusion</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
