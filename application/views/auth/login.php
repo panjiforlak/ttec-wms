@@ -139,9 +139,9 @@
                                             <button class="btn btn-dark w-100 mr-3" type="submit">Login</button>
                                         </div>
                                         <div class="col-12">
-                                            <p class="small mb-0 disabled">Don't have account? <a
-                                                    href="<?php echo base_url('auth/register'); ?>">Create an
+                                            <p class="small mb-0">Don't have account? <a href="#">Create an
                                                     account</a></p>
+                                            <!-- disable auth register <?php echo base_url('auth/register'); ?> -->
                                         </div>
                                     </form>
 
