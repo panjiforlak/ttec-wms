@@ -40,7 +40,7 @@ foreach ($menu as $row) {
     <div class="d-flex align-items-center justify-content-between ">
         <a href="<?php echo site_url();?>dashboard" class="logo d-flex align-items-center">
             <!-- <img src="<?php echo site_url('assets'); ?>/img/ttec-logo.jpg" alt=""> -->
-            <span class="d-none d-lg-block text-white " style="font-size:10pt">WMS 00000- Tokai Extrusion
+            <span class="d-none d-lg-block text-white " style="font-size:10pt">WMS - Tokai Extrusion
                 <sup class="text-warning"></sup></span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
