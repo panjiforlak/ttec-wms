@@ -9,7 +9,7 @@ $this->db->where('access', 1);
 $this->db->where('menus.is_delete', 0);
 $this->db->join('roles_menu', 'roles_menu.menu_id=menus.id');
 $queryMenu = $this->db->get('menus');
-
+// test commentar aja
 $menu = $queryMenu->result_array();
 
 foreach ($menu as $row) {
