@@ -350,7 +350,7 @@ $("#adding").click(function(event) {
     var uom = [];
     var uomName = [];
 
-    $(".products").each(function(index) {
+    $(".products").each(function() {
         product.push($(this).val());
 
     });
@@ -382,7 +382,7 @@ $("#adding").click(function(event) {
 
     let html = '<tr>'
     html += '<td class="text-center fw-bold"><input type="hidden" name="product_unit_id[]"  value="' +
-        product + index +
+        product +
         '">' + partName + '</td>';
     html +=
         '<td class="text-center text-uppercase"><input type="hidden" name="type[]"  value="' +

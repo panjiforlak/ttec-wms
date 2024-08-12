@@ -40,7 +40,6 @@
                                 <th scope="col" class="text-center">Lot</th>
                                 <th scope="col" class="text-center">Order Qty</th>
                                 <th scope="col" class="text-center">Total Qty</th>
-                                <th scope="col" class="text-center">Tools</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -67,7 +66,7 @@
                                     echo $gpd['type']==='lot'? $totQty.' '.$get_unit['unit_name']: $gpd['qty'].' '.$gpd['unit_name']; ?>
                                 </td>
 
-                                <td class="text-center">
+                                <!-- <td class="text-center">
                                     <h6 class="mb-0">
                                         <a class="view" href="javascript:void(0);" data-toggle="tooltip"
                                             data-bs-placement="left" title="Detail Info"
@@ -86,7 +85,7 @@
                                             <i class="bi bi-trash3-fill text-danger"></i>
                                         </a>
                                     </h6>
-                                </td>
+                                </td> -->
                             </tr>
                             <?php endforeach; ?>
                         </tbody>
