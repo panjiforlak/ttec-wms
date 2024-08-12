@@ -207,7 +207,6 @@ $(document).ready(function() {
     }
     $('#prd1').change(function() {
         var id = $(this).val();
-        console.log(id)
         var type = $('.type').val();
         let qty = $('.qty').val();
         let lot = $('.lot').val();
